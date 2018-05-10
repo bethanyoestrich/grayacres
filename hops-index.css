@@ -1,0 +1,139 @@
+*{
+    margin:0; 
+    padding:0;
+    b
+}
+/*-----reusable elements------*/
+.row {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+section {
+    padding: 60px 0; 
+}
+
+.box {
+    padding: 1%;
+}
+
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size:100px;  
+}
+
+h2{
+    font-size:90%;
+    font-weight:200;
+}
+
+h3{
+    font-size:200%;
+    text-align: center; 
+    font-weight:400;
+    color:#8d8d8d;
+}
+
+h3:after{
+    display: block; 
+    height: 2px; 
+    background-color: #2ecc71; 
+    content: " "; 
+    width: 100px; 
+    margin: 0 auto; 
+    margin-top: 30px; 
+}
+
+p{
+    font-weight: 200;
+    font-size:100%;
+}
+
+.long-text{
+    padding:60px 100px; 
+    line-height: 145%;
+    text-align: center;
+}
+a:link, 
+a:active,
+a:visited{
+    color:#fff;
+    text-decoration: none;
+    border-bottom: transparent; 
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover, 
+a:active{
+    color:#fff;
+    text-decoration: none;
+    border-bottom: 2px solid #2ecc71;
+}
+
+
+/*------navigation-----*/
+.nav{
+    background-color:rgba(100, 100, 100, 0.8);
+    color:#fff; 
+    padding:20px;
+    height:40px; 
+}
+
+.navigation-list{
+    color:#fff;
+    list-style:none;
+    float:right;
+    padding-right: 20px;
+    margin-top:10px;
+}
+
+.navigation-list li{
+    display:inline-block;
+    padding-right:20px;
+    border: none;
+    color:#fff;
+}
+
+/*------header-------*/
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.78),rgba(100, 100, 100, 0.46)),url(headerbackground.jpg);
+    height:100vh;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+}
+
+.header-text{
+    color:#fff;
+    width:cover;
+    text-align: center;
+    transform: translate(0, 50%); 
+}
+.gray-acre-header{
+    font-weight:500;
+}
+
+.located-text{
+    font-size:300%;
+}
+/*----variatals------*/
+.varietals{
+    background-color:#e5e5e5
+}
+/*-----footer-----*/
+footer{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.78),rgba(100, 100, 100, 0.46)),url(hopsfooter.jpg);
+    background-size: cover;
+    height: 200px; 
+}
+.footer-text{
+    color:#fff;
+    text-align: center;
+    transform: translate (0, 50%); 
+    padding-top:175px; 
+}
+
