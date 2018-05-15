@@ -41,6 +41,7 @@ h3{
 h4 {
     font-size:130%; 
     margin-bottom: 10px; 
+    font-weight: 400; 
 }
 
 h3:after{
@@ -135,11 +136,13 @@ header{
     width: 40%;
     padding: 10 20;
     margin-top: 20px; 
+    color: #8d8d8d; 
 }
 
 .hop_type li{
     list-style:none; 
     line-height: 145%; 
+    font-weight: 100; 
 }
 
 
