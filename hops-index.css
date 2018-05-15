@@ -38,6 +38,11 @@ h3{
     color:#8d8d8d;
 }
 
+h4 {
+    font-size:130%; 
+    margin-bottom: 10px; 
+}
+
 h3:after{
     display: block; 
     height: 2px; 
@@ -73,7 +78,7 @@ a:active{
     text-decoration: none;
     border-bottom: 2px solid #2ecc71;
 }
-
+/*------col------------*/
 
 /*------navigation-----*/
 .nav{
@@ -100,7 +105,7 @@ a:active{
 
 /*------header-------*/
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.78),rgba(100, 100, 100, 0.46)),url(headerbackground.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.78),rgba(100, 100, 100, 0.46)),url(hopheader.jpg);
     height:100vh;
     background-attachment: fixed;
     background-size:cover;
@@ -122,8 +127,22 @@ header{
 }
 /*----variatals------*/
 .varietals{
-    background-color:#e5e5e5
+    background-color:#e5e5e5;
+    text-align:center; 
 }
+.hop_type{
+    display: inline-block; 
+    width: 40%;
+    padding: 10 20;
+    margin-top: 20px; 
+}
+
+.hop_type li{
+    list-style:none; 
+    line-height: 145%; 
+}
+
+
 /*-----footer-----*/
 footer{
     background-image:linear-gradient(rgba(0, 0, 0, 0.78),rgba(100, 100, 100, 0.46)),url(hopsfooter.jpg);
