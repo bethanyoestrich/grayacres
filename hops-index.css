@@ -1,7 +1,6 @@
 *{
     margin:0; 
     padding:0;
-    b
 }
 /*-----reusable elements------*/
 .row {
@@ -42,6 +41,9 @@ h4 {
     font-size:130%; 
     margin-bottom: 10px; 
     font-weight: 400; 
+    text-align: center; 
+    color:#8d8d8d;
+    margin-top:30px; 
 }
 
 h3:after{
@@ -57,6 +59,8 @@ h3:after{
 p{
     font-weight: 200;
     font-size:100%;
+    margin: 25px;
+    text-align: center; 
 }
 
 .long-text{
@@ -64,17 +68,17 @@ p{
     line-height: 145%;
     text-align: center;
 }
-a:link, 
-a:active,
-a:visited{
+.nav a:link, 
+.nav a:active,
+.nav a:visited{
     color:#fff;
     text-decoration: none;
     border-bottom: transparent; 
     transition: border-bottom 0.2s, color 0.2s;
 }
 
-a:hover, 
-a:active{
+.nav a:hover, 
+.nav a:active{
     color:#fff;
     text-decoration: none;
     border-bottom: 2px solid #2ecc71;
@@ -139,12 +143,24 @@ header{
     color: #8d8d8d; 
 }
 
-.hop_type li{
-    list-style:none; 
+li{
+    list-style: none; 
     line-height: 145%; 
     font-weight: 100; 
+    color: #8d8d8d; 
+    text-align: center;   
 }
 
+.ul{
+    list-style: none; 
+}
+
+a:link, 
+a:active, 
+a: visited{
+    color: #2ecc71; 
+    text-decoration: none; 
+}
 
 /*-----footer-----*/
 footer{
